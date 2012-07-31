@@ -1,0 +1,24 @@
+https://gist.github.com/1074227/
+https://github.com/eklitzke/tornado-dns
+http://code.activestate.com/recipes/577649-dhcp-query/
+
+Features
+
+ - python DHCP get DNS servers
+ - in memory data structure. Fast caching, small memory footprint.
+ - py2.7 win32 slim packing
+ - gevent dns server
+ - record black list
+ - multiple source, tcp/udp, RESTful
+   - ignore ISP incorrect udp packet
+ - Round-robin/Random/FCFS/Master-fallback
+ - no reverse lookup spam
+ - RegExp hosts-like /^$/
+ - DNS history record
+
+
+2012-07-31
+http://www.wangafu.net/~nickm/libevent-2.0/doxygen/html/dns_8h.html
+ - should not round robin
+
+https://github.com/lambdaq/ftdns.git
